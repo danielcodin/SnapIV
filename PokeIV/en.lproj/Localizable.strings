@@ -1,0 +1,36 @@
+/* 
+  Localizable.strings
+  SnapIV
+
+  Created by Daniel Tseng on 8/16/16.
+  Copyright © 2016 Daniel Tseng. All rights reserved.
+*/
+
+"submit_button" = "Submit";
+"upload_button" = "Upload";
+"quickUpload_button" = "Quick Upload";
+"narrowDown_button" = "Narrow Down";
+"tryAgain_button" = "Try Again";
+
+"adRemove_title" = "Settings";
+"adRemove_button" = "Remove Ad    NT$ 30";
+"adRestore_button" = "Restore";
+
+"mail_title" = "Report Issues/Suggestions";
+"mail_body" = "ios Version: \niPhone Version:";
+
+"iv_MaxLabel" = "Average IV: ";
+"iv_noResult_1" = "No Results";
+"iv_noResult_2" = "Check if input is correct";
+
+"ask_autoDeletePhoto_title" = "Delete uploaded photo or not?";
+"ask_autoDeletePhoto_body" = "Can be changed in the setting later";
+"autoDeletePhoto_switchLabel" = "Ask to delete photo";
+
+"iv_description" = "";
+
+"trainerLevel_title" = "Trainer Level";
+"arcLevel_title" = "Arc Level";
+"next_button" = "Next";
+"cancel_button" = "Cancel";
+"reset_button" = "Reset";

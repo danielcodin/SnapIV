@@ -1,0 +1,1024 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BC77888501603189B5FF2B9 /* Pods_SnapIVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08883F8369D164516E52F65D /* Pods_SnapIVUITests.framework */; };
+		65033E2F1D6397EE001509A7 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65033E2E1D6397EE001509A7 /* Data.swift */; };
+		65033E311D653577001509A7 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 65033E301D653577001509A7 /* libz.tbd */; };
+		65033E3D1D659883001509A7 /* DetectDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65033E3C1D659883001509A7 /* DetectDevice.swift */; };
+		65033E471D66FF85001509A7 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65033E441D66FF85001509A7 /* FBSDKCoreKit.framework */; };
+		65033E481D66FF85001509A7 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65033E451D66FF85001509A7 /* FBSDKLoginKit.framework */; };
+		65033E491D66FF85001509A7 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65033E461D66FF85001509A7 /* FBSDKShareKit.framework */; };
+		65033E4B1D6759D4001509A7 /* pokeLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65033E4A1D6759D4001509A7 /* pokeLevelViewController.swift */; };
+		65033E4D1D6AD771001509A7 /* PokemonGO.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 65033E4C1D6AD2CE001509A7 /* PokemonGO.sqlite */; };
+		652B3D1B1D61E02000EC02B3 /* AdRemoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652B3D1A1D61E02000EC02B3 /* AdRemoveViewController.swift */; };
+		653E2E031D5A4B5300BDA228 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E2E021D5A4B5300BDA228 /* AppDelegate.swift */; };
+		653E2E051D5A4B5300BDA228 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E2E041D5A4B5300BDA228 /* ViewController.swift */; };
+		653E2E081D5A4B5300BDA228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653E2E061D5A4B5300BDA228 /* Main.storyboard */; };
+		653E2E0A1D5A4B5300BDA228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653E2E091D5A4B5300BDA228 /* Assets.xcassets */; };
+		653E2E0D1D5A4B5300BDA228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 653E2E0B1D5A4B5300BDA228 /* LaunchScreen.storyboard */; };
+		653E2E181D5A4B5300BDA228 /* PokeIVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E2E171D5A4B5300BDA228 /* PokeIVTests.swift */; };
+		653E2E231D5A4B5300BDA228 /* PokeIVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E2E221D5A4B5300BDA228 /* PokeIVUITests.swift */; };
+		653E2E341D5A568F00BDA228 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 653E2E331D5A568F00BDA228 /* libsqlite3.dylib */; };
+		653E2E381D5A572E00BDA228 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 653E2E351D5A572E00BDA228 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		653E2E391D5A572E00BDA228 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 653E2E361D5A572E00BDA228 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		653E2E3A1D5A572E00BDA228 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 653E2E371D5A572E00BDA228 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		653E2E3D1D5A596A00BDA228 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E2E3C1D5A596A00BDA228 /* Util.swift */; };
+		653E2E401D5A5A6900BDA228 /* BaseStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E2E3F1D5A5A6900BDA228 /* BaseStat.swift */; };
+		653E2E421D5A5B2A00BDA228 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E2E411D5A5B2A00BDA228 /* ModelManager.swift */; };
+		653E2E471D5A5F1B00BDA228 /* FMDatabase.h in Sources */ = {isa = PBXBuildFile; fileRef = 653E2E431D5A5F1B00BDA228 /* FMDatabase.h */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		653E2E481D5A5F1B00BDA228 /* FMResultSet.h in Sources */ = {isa = PBXBuildFile; fileRef = 653E2E441D5A5F1B00BDA228 /* FMResultSet.h */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		653E2E491D5A5F1B00BDA228 /* FMDatabaseAdditions.h in Sources */ = {isa = PBXBuildFile; fileRef = 653E2E451D5A5F1B00BDA228 /* FMDatabaseAdditions.h */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		653E2E4A1D5A5F1B00BDA228 /* FMDB.h in Sources */ = {isa = PBXBuildFile; fileRef = 653E2E461D5A5F1B00BDA228 /* FMDB.h */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		658113F31D5A959900B4983B /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658113F21D5A959900B4983B /* TesseractOCR.framework */; };
+		658113F51D5A95CA00B4983B /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 658113F41D5A95CA00B4983B /* tessdata */; };
+		658113F71D5A963000B4983B /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 658113F61D5A963000B4983B /* libstdc++.6.0.9.tbd */; };
+		658113F91D5A963900B4983B /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658113F81D5A963900B4983B /* CoreImage.framework */; };
+		658160981D63011900611A2F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6581609A1D63011900611A2F /* Localizable.strings */; };
+		658160A21D63018A00611A2F /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658160A11D63018A00611A2F /* StringExtension.swift */; };
+		65C743D01D5E8E7100A37072 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C743CF1D5E8E7100A37072 /* StoreKit.framework */; };
+		65C743D21D5E8F9000A37072 /* PokeIVProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C743D11D5E8F9000A37072 /* PokeIVProducts.swift */; };
+		65C743D41D5E906600A37072 /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C743D31D5E906600A37072 /* IAPHelper.swift */; };
+		65E873911D5C530F00829E31 /* libPayPalMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E873891D5C530F00829E31 /* libPayPalMobile.a */; };
+		65E873921D5C53A600829E31 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EE2BFA1D5C337E006DE332 /* SafariServices.framework */; };
+		65E8739B1D5C53A600829E31 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E873931D5C53A600829E31 /* Accelerate.framework */; };
+		65E8739C1D5C53A600829E31 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E873941D5C53A600829E31 /* AudioToolbox.framework */; };
+		65E8739D1D5C53A600829E31 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E873951D5C53A600829E31 /* AVFoundation.framework */; };
+		65E8739E1D5C53A600829E31 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E873961D5C53A600829E31 /* CoreLocation.framework */; };
+		65E8739F1D5C53A600829E31 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E873971D5C53A600829E31 /* CoreMedia.framework */; };
+		65E873A01D5C53A600829E31 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E873981D5C53A600829E31 /* MessageUI.framework */; };
+		65E873A11D5C53A600829E31 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E873991D5C53A600829E31 /* MobileCoreServices.framework */; };
+		65E873A21D5C53A600829E31 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E8739A1D5C53A600829E31 /* SystemConfiguration.framework */; };
+		65E873AF1D5C5E4200829E31 /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E873AC1D5C5E4200829E31 /* libCardIO.a */; };
+		65E873B01D5C5E4200829E31 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E873AD1D5C5E4200829E31 /* libopencv_core.a */; };
+		65E873B11D5C5E4200829E31 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E873AE1D5C5E4200829E31 /* libopencv_imgproc.a */; };
+		65E873B31D5CB3C200829E31 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E873B21D5CB3C200829E31 /* SpinnerView.swift */; };
+		65EE2BF91D5C3261006DE332 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65EE2BF81D5C3261006DE332 /* GoogleService-Info.plist */; };
+		65EE2BFD1D5C34D7006DE332 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EE2BFC1D5C34D7006DE332 /* GoogleMobileAds.framework */; };
+		ABC2105371178A0D85439CDB /* Pods_SnapIVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F110081893472A2FA83A594 /* Pods_SnapIVTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		653E2E141D5A4B5300BDA228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 653E2DF71D5A4B5300BDA228 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 653E2DFE1D5A4B5300BDA228;
+			remoteInfo = PokeIV;
+		};
+		653E2E1F1D5A4B5300BDA228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 653E2DF71D5A4B5300BDA228 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 653E2DFE1D5A4B5300BDA228;
+			remoteInfo = PokeIV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		65033E5E1D6ADB6F001509A7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08883F8369D164516E52F65D /* Pods_SnapIVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapIVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F110081893472A2FA83A594 /* Pods_SnapIVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapIVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E10E7C7AC2B59F5581FF80 /* Pods-SnapIVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapIVUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapIVUITests/Pods-SnapIVUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		272DB20AD873BB28F044D3AB /* Pods-SnapIVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapIVTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapIVTests/Pods-SnapIVTests.release.xcconfig"; sourceTree = "<group>"; };
+		49CFE0A6D008B9D76B12F5DA /* Pods_SnapIV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapIV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF8F576F2D01A010B9D04CA /* Pods-SnapIV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapIV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapIV/Pods-SnapIV.debug.xcconfig"; sourceTree = "<group>"; };
+		65033E2E1D6397EE001509A7 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		65033E301D653577001509A7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		65033E3C1D659883001509A7 /* DetectDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetectDevice.swift; sourceTree = "<group>"; };
+		65033E441D66FF85001509A7 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		65033E451D66FF85001509A7 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		65033E461D66FF85001509A7 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		65033E4A1D6759D4001509A7 /* pokeLevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pokeLevelViewController.swift; sourceTree = "<group>"; };
+		65033E4C1D6AD2CE001509A7 /* PokemonGO.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = PokemonGO.sqlite; sourceTree = "<group>"; };
+		65033E531D6ADB6F001509A7 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		652B3D1A1D61E02000EC02B3 /* AdRemoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdRemoveViewController.swift; sourceTree = "<group>"; };
+		653E2DFF1D5A4B5300BDA228 /* SnapIV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapIV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		653E2E021D5A4B5300BDA228 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		653E2E041D5A4B5300BDA228 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		653E2E071D5A4B5300BDA228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		653E2E091D5A4B5300BDA228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		653E2E0C1D5A4B5300BDA228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		653E2E0E1D5A4B5300BDA228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		653E2E131D5A4B5300BDA228 /* SnapIV.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapIV.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		653E2E171D5A4B5300BDA228 /* PokeIVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeIVTests.swift; sourceTree = "<group>"; };
+		653E2E191D5A4B5300BDA228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		653E2E1E1D5A4B5300BDA228 /* SnapIV.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapIV.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		653E2E221D5A4B5300BDA228 /* PokeIVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeIVUITests.swift; sourceTree = "<group>"; };
+		653E2E241D5A4B5300BDA228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		653E2E331D5A568F00BDA228 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		653E2E351D5A572E00BDA228 /* FMDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		653E2E361D5A572E00BDA228 /* FMResultSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		653E2E371D5A572E00BDA228 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		653E2E3B1D5A576A00BDA228 /* PokeIV-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PokeIV-Bridging-Header.h"; sourceTree = "<group>"; };
+		653E2E3C1D5A596A00BDA228 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		653E2E3F1D5A5A6900BDA228 /* BaseStat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseStat.swift; sourceTree = "<group>"; };
+		653E2E411D5A5B2A00BDA228 /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		653E2E431D5A5F1B00BDA228 /* FMDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = ../fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		653E2E441D5A5F1B00BDA228 /* FMResultSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		653E2E451D5A5F1B00BDA228 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		653E2E461D5A5F1B00BDA228 /* FMDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = fmdb/FMDB.h; sourceTree = "<group>"; };
+		658113F21D5A959900B4983B /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
+		658113F41D5A95CA00B4983B /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		658113F61D5A963000B4983B /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		658113F81D5A963900B4983B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		658160941D6300C200611A2F /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		658160951D6300C200611A2F /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		658160991D63011900611A2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		658160A01D63014900611A2F /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		658160A11D63018A00611A2F /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		65C743CF1D5E8E7100A37072 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		65C743D11D5E8F9000A37072 /* PokeIVProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeIVProducts.swift; sourceTree = "<group>"; };
+		65C743D31D5E906600A37072 /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
+		65E873891D5C530F00829E31 /* libPayPalMobile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayPalMobile.a; sourceTree = "<group>"; };
+		65E8738A1D5C530F00829E31 /* PayPalConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalConfiguration.h; sourceTree = "<group>"; };
+		65E8738B1D5C530F00829E31 /* PayPalFuturePaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalFuturePaymentViewController.h; sourceTree = "<group>"; };
+		65E8738C1D5C530F00829E31 /* PayPalMobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalMobile.h; sourceTree = "<group>"; };
+		65E8738D1D5C530F00829E31 /* PayPalOAuthScopes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalOAuthScopes.h; sourceTree = "<group>"; };
+		65E8738E1D5C530F00829E31 /* PayPalPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPayment.h; sourceTree = "<group>"; };
+		65E8738F1D5C530F00829E31 /* PayPalPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPaymentViewController.h; sourceTree = "<group>"; };
+		65E873901D5C530F00829E31 /* PayPalProfileSharingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalProfileSharingViewController.h; sourceTree = "<group>"; };
+		65E873931D5C53A600829E31 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		65E873941D5C53A600829E31 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		65E873951D5C53A600829E31 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		65E873961D5C53A600829E31 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		65E873971D5C53A600829E31 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		65E873981D5C53A600829E31 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		65E873991D5C53A600829E31 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		65E8739A1D5C53A600829E31 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		65E873A41D5C5E4200829E31 /* CardIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIO.h; sourceTree = "<group>"; };
+		65E873A51D5C5E4200829E31 /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOCreditCardInfo.h; sourceTree = "<group>"; };
+		65E873A61D5C5E4200829E31 /* CardIODetectionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIODetectionMode.h; sourceTree = "<group>"; };
+		65E873A71D5C5E4200829E31 /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewController.h; sourceTree = "<group>"; };
+		65E873A81D5C5E4200829E31 /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
+		65E873A91D5C5E4200829E31 /* CardIOUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOUtilities.h; sourceTree = "<group>"; };
+		65E873AA1D5C5E4200829E31 /* CardIOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOView.h; sourceTree = "<group>"; };
+		65E873AB1D5C5E4200829E31 /* CardIOViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOViewDelegate.h; sourceTree = "<group>"; };
+		65E873AC1D5C5E4200829E31 /* libCardIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardIO.a; sourceTree = "<group>"; };
+		65E873AD1D5C5E4200829E31 /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_core.a; sourceTree = "<group>"; };
+		65E873AE1D5C5E4200829E31 /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_imgproc.a; sourceTree = "<group>"; };
+		65E873B21D5CB3C200829E31 /* SpinnerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		65EE2BF81D5C3261006DE332 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		65EE2BFA1D5C337E006DE332 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		65EE2BFC1D5C34D7006DE332 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		6AAE4F83B67CA7A66ED0B0CD /* Pods-SnapIV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapIV.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapIV/Pods-SnapIV.release.xcconfig"; sourceTree = "<group>"; };
+		979752491633BD9DFB280D0C /* Pods-SnapIVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapIVTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapIVTests/Pods-SnapIVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3240D0349D445772A09092E /* Pods-SnapIVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapIVUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapIVUITests/Pods-SnapIVUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		653E2DFC1D5A4B5300BDA228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65033E311D653577001509A7 /* libz.tbd in Frameworks */,
+				65E8739B1D5C53A600829E31 /* Accelerate.framework in Frameworks */,
+				65E8739C1D5C53A600829E31 /* AudioToolbox.framework in Frameworks */,
+				65E873B11D5C5E4200829E31 /* libopencv_imgproc.a in Frameworks */,
+				65033E471D66FF85001509A7 /* FBSDKCoreKit.framework in Frameworks */,
+				65C743D01D5E8E7100A37072 /* StoreKit.framework in Frameworks */,
+				65E8739D1D5C53A600829E31 /* AVFoundation.framework in Frameworks */,
+				65033E491D66FF85001509A7 /* FBSDKShareKit.framework in Frameworks */,
+				65E873AF1D5C5E4200829E31 /* libCardIO.a in Frameworks */,
+				65033E481D66FF85001509A7 /* FBSDKLoginKit.framework in Frameworks */,
+				65E8739E1D5C53A600829E31 /* CoreLocation.framework in Frameworks */,
+				65E8739F1D5C53A600829E31 /* CoreMedia.framework in Frameworks */,
+				65E873A01D5C53A600829E31 /* MessageUI.framework in Frameworks */,
+				65E873A11D5C53A600829E31 /* MobileCoreServices.framework in Frameworks */,
+				65E873A21D5C53A600829E31 /* SystemConfiguration.framework in Frameworks */,
+				65E873921D5C53A600829E31 /* SafariServices.framework in Frameworks */,
+				65E873911D5C530F00829E31 /* libPayPalMobile.a in Frameworks */,
+				658113F91D5A963900B4983B /* CoreImage.framework in Frameworks */,
+				658113F71D5A963000B4983B /* libstdc++.6.0.9.tbd in Frameworks */,
+				658113F31D5A959900B4983B /* TesseractOCR.framework in Frameworks */,
+				653E2E341D5A568F00BDA228 /* libsqlite3.dylib in Frameworks */,
+				65EE2BFD1D5C34D7006DE332 /* GoogleMobileAds.framework in Frameworks */,
+				65E873B01D5C5E4200829E31 /* libopencv_core.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653E2E101D5A4B5300BDA228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC2105371178A0D85439CDB /* Pods_SnapIVTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653E2E1B1D5A4B5300BDA228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC77888501603189B5FF2B9 /* Pods_SnapIVUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26BE15FEA42D323056600F59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65033E441D66FF85001509A7 /* FBSDKCoreKit.framework */,
+				65033E451D66FF85001509A7 /* FBSDKLoginKit.framework */,
+				65033E461D66FF85001509A7 /* FBSDKShareKit.framework */,
+				65033E301D653577001509A7 /* libz.tbd */,
+				65C743CF1D5E8E7100A37072 /* StoreKit.framework */,
+				65E873931D5C53A600829E31 /* Accelerate.framework */,
+				65E873941D5C53A600829E31 /* AudioToolbox.framework */,
+				65E873951D5C53A600829E31 /* AVFoundation.framework */,
+				65E873961D5C53A600829E31 /* CoreLocation.framework */,
+				65E873971D5C53A600829E31 /* CoreMedia.framework */,
+				65E873981D5C53A600829E31 /* MessageUI.framework */,
+				65E873991D5C53A600829E31 /* MobileCoreServices.framework */,
+				65E8739A1D5C53A600829E31 /* SystemConfiguration.framework */,
+				65EE2BFA1D5C337E006DE332 /* SafariServices.framework */,
+				49CFE0A6D008B9D76B12F5DA /* Pods_SnapIV.framework */,
+				0F110081893472A2FA83A594 /* Pods_SnapIVTests.framework */,
+				08883F8369D164516E52F65D /* Pods_SnapIVUITests.framework */,
+				65033E531D6ADB6F001509A7 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		653E2DF61D5A4B5300BDA228 = {
+			isa = PBXGroup;
+			children = (
+				658113F81D5A963900B4983B /* CoreImage.framework */,
+				65EE2BFC1D5C34D7006DE332 /* GoogleMobileAds.framework */,
+				65E873881D5C530F00829E31 /* PayPalMobile */,
+				65E873A31D5C5E4200829E31 /* CardIO */,
+				653E2E451D5A5F1B00BDA228 /* FMDatabaseAdditions.h */,
+				653E2E441D5A5F1B00BDA228 /* FMResultSet.h */,
+				653E2E461D5A5F1B00BDA228 /* FMDB.h */,
+				653E2E3B1D5A576A00BDA228 /* PokeIV-Bridging-Header.h */,
+				653E2E351D5A572E00BDA228 /* FMDatabase.m */,
+				653E2E361D5A572E00BDA228 /* FMResultSet.m */,
+				653E2E371D5A572E00BDA228 /* FMDatabaseAdditions.m */,
+				653E2E331D5A568F00BDA228 /* libsqlite3.dylib */,
+				658113F61D5A963000B4983B /* libstdc++.6.0.9.tbd */,
+				653E2E011D5A4B5300BDA228 /* PokeIV */,
+				653E2E161D5A4B5300BDA228 /* PokeIVTests */,
+				653E2E211D5A4B5300BDA228 /* PokeIVUITests */,
+				653E2E001D5A4B5300BDA228 /* Products */,
+				E894107CCC3B5499490C33B4 /* Pods */,
+				26BE15FEA42D323056600F59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		653E2E001D5A4B5300BDA228 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				653E2DFF1D5A4B5300BDA228 /* SnapIV.app */,
+				653E2E131D5A4B5300BDA228 /* SnapIV.xctest */,
+				653E2E1E1D5A4B5300BDA228 /* SnapIV.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		653E2E011D5A4B5300BDA228 /* PokeIV */ = {
+			isa = PBXGroup;
+			children = (
+				658113F41D5A95CA00B4983B /* tessdata */,
+				658113F21D5A959900B4983B /* TesseractOCR.framework */,
+				653E2E3E1D5A5A1700BDA228 /* Model */,
+				6581609A1D63011900611A2F /* Localizable.strings */,
+				658160A11D63018A00611A2F /* StringExtension.swift */,
+				653E2E021D5A4B5300BDA228 /* AppDelegate.swift */,
+				65C743D31D5E906600A37072 /* IAPHelper.swift */,
+				65033E3C1D659883001509A7 /* DetectDevice.swift */,
+				65E873B21D5CB3C200829E31 /* SpinnerView.swift */,
+				65033E2E1D6397EE001509A7 /* Data.swift */,
+				65C743D11D5E8F9000A37072 /* PokeIVProducts.swift */,
+				65033E4A1D6759D4001509A7 /* pokeLevelViewController.swift */,
+				652B3D1A1D61E02000EC02B3 /* AdRemoveViewController.swift */,
+				653E2E041D5A4B5300BDA228 /* ViewController.swift */,
+				653E2E061D5A4B5300BDA228 /* Main.storyboard */,
+				653E2E091D5A4B5300BDA228 /* Assets.xcassets */,
+				653E2E0B1D5A4B5300BDA228 /* LaunchScreen.storyboard */,
+				653E2E0E1D5A4B5300BDA228 /* Info.plist */,
+				65EE2BF81D5C3261006DE332 /* GoogleService-Info.plist */,
+				65033E4C1D6AD2CE001509A7 /* PokemonGO.sqlite */,
+			);
+			path = PokeIV;
+			sourceTree = "<group>";
+		};
+		653E2E161D5A4B5300BDA228 /* PokeIVTests */ = {
+			isa = PBXGroup;
+			children = (
+				653E2E171D5A4B5300BDA228 /* PokeIVTests.swift */,
+				653E2E191D5A4B5300BDA228 /* Info.plist */,
+			);
+			path = PokeIVTests;
+			sourceTree = "<group>";
+		};
+		653E2E211D5A4B5300BDA228 /* PokeIVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				653E2E221D5A4B5300BDA228 /* PokeIVUITests.swift */,
+				653E2E241D5A4B5300BDA228 /* Info.plist */,
+			);
+			path = PokeIVUITests;
+			sourceTree = "<group>";
+		};
+		653E2E3E1D5A5A1700BDA228 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				653E2E3C1D5A596A00BDA228 /* Util.swift */,
+				653E2E3F1D5A5A6900BDA228 /* BaseStat.swift */,
+				653E2E411D5A5B2A00BDA228 /* ModelManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		65E873881D5C530F00829E31 /* PayPalMobile */ = {
+			isa = PBXGroup;
+			children = (
+				653E2E431D5A5F1B00BDA228 /* FMDatabase.h */,
+				65E873891D5C530F00829E31 /* libPayPalMobile.a */,
+				65E8738A1D5C530F00829E31 /* PayPalConfiguration.h */,
+				65E8738B1D5C530F00829E31 /* PayPalFuturePaymentViewController.h */,
+				65E8738C1D5C530F00829E31 /* PayPalMobile.h */,
+				65E8738D1D5C530F00829E31 /* PayPalOAuthScopes.h */,
+				65E8738E1D5C530F00829E31 /* PayPalPayment.h */,
+				65E8738F1D5C530F00829E31 /* PayPalPaymentViewController.h */,
+				65E873901D5C530F00829E31 /* PayPalProfileSharingViewController.h */,
+			);
+			path = PayPalMobile;
+			sourceTree = "<group>";
+		};
+		65E873A31D5C5E4200829E31 /* CardIO */ = {
+			isa = PBXGroup;
+			children = (
+				65E873A41D5C5E4200829E31 /* CardIO.h */,
+				65E873A51D5C5E4200829E31 /* CardIOCreditCardInfo.h */,
+				65E873A61D5C5E4200829E31 /* CardIODetectionMode.h */,
+				65E873A71D5C5E4200829E31 /* CardIOPaymentViewController.h */,
+				65E873A81D5C5E4200829E31 /* CardIOPaymentViewControllerDelegate.h */,
+				65E873A91D5C5E4200829E31 /* CardIOUtilities.h */,
+				65E873AA1D5C5E4200829E31 /* CardIOView.h */,
+				65E873AB1D5C5E4200829E31 /* CardIOViewDelegate.h */,
+				65E873AC1D5C5E4200829E31 /* libCardIO.a */,
+				65E873AD1D5C5E4200829E31 /* libopencv_core.a */,
+				65E873AE1D5C5E4200829E31 /* libopencv_imgproc.a */,
+			);
+			path = CardIO;
+			sourceTree = "<group>";
+		};
+		E894107CCC3B5499490C33B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AF8F576F2D01A010B9D04CA /* Pods-SnapIV.debug.xcconfig */,
+				6AAE4F83B67CA7A66ED0B0CD /* Pods-SnapIV.release.xcconfig */,
+				979752491633BD9DFB280D0C /* Pods-SnapIVTests.debug.xcconfig */,
+				272DB20AD873BB28F044D3AB /* Pods-SnapIVTests.release.xcconfig */,
+				15E10E7C7AC2B59F5581FF80 /* Pods-SnapIVUITests.debug.xcconfig */,
+				B3240D0349D445772A09092E /* Pods-SnapIVUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		653E2DFE1D5A4B5300BDA228 /* SnapIV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653E2E271D5A4B5300BDA228 /* Build configuration list for PBXNativeTarget "SnapIV" */;
+			buildPhases = (
+				2B1429E7F69AEB9A56374030 /* [CP] Check Pods Manifest.lock */,
+				653E2DFB1D5A4B5300BDA228 /* Sources */,
+				653E2DFC1D5A4B5300BDA228 /* Frameworks */,
+				653E2DFD1D5A4B5300BDA228 /* Resources */,
+				58BFFD1D073EDA5CF4346996 /* [CP] Embed Pods Frameworks */,
+				F61250D0B0DA88AD2BB4B356 /* [CP] Copy Pods Resources */,
+				65033E5E1D6ADB6F001509A7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapIV;
+			productName = PokeIV;
+			productReference = 653E2DFF1D5A4B5300BDA228 /* SnapIV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		653E2E121D5A4B5300BDA228 /* SnapIVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653E2E2A1D5A4B5300BDA228 /* Build configuration list for PBXNativeTarget "SnapIVTests" */;
+			buildPhases = (
+				D54EFAFF6C79480F0D0ACF15 /* [CP] Check Pods Manifest.lock */,
+				653E2E0F1D5A4B5300BDA228 /* Sources */,
+				653E2E101D5A4B5300BDA228 /* Frameworks */,
+				653E2E111D5A4B5300BDA228 /* Resources */,
+				F4B5D4D405037424CF57989D /* [CP] Embed Pods Frameworks */,
+				DBA61DE14F3FABABFF5829BD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				653E2E151D5A4B5300BDA228 /* PBXTargetDependency */,
+			);
+			name = SnapIVTests;
+			productName = PokeIVTests;
+			productReference = 653E2E131D5A4B5300BDA228 /* SnapIV.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		653E2E1D1D5A4B5300BDA228 /* SnapIVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653E2E2D1D5A4B5300BDA228 /* Build configuration list for PBXNativeTarget "SnapIVUITests" */;
+			buildPhases = (
+				F14A229675F3088991F9BEF9 /* [CP] Check Pods Manifest.lock */,
+				653E2E1A1D5A4B5300BDA228 /* Sources */,
+				653E2E1B1D5A4B5300BDA228 /* Frameworks */,
+				653E2E1C1D5A4B5300BDA228 /* Resources */,
+				74B7BF93267F6C9170EFAC10 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				653E2E201D5A4B5300BDA228 /* PBXTargetDependency */,
+			);
+			name = SnapIVUITests;
+			productName = PokeIVUITests;
+			productReference = 653E2E1E1D5A4B5300BDA228 /* SnapIV.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		653E2DF71D5A4B5300BDA228 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Daniel Tseng";
+				TargetAttributes = {
+					653E2DFE1D5A4B5300BDA228 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XT8XVPACHB;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+					653E2E121D5A4B5300BDA228 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 653E2DFE1D5A4B5300BDA228;
+					};
+					653E2E1D1D5A4B5300BDA228 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 653E2DFE1D5A4B5300BDA228;
+					};
+				};
+			};
+			buildConfigurationList = 653E2DFA1D5A4B5300BDA228 /* Build configuration list for PBXProject "SnapIV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hant",
+			);
+			mainGroup = 653E2DF61D5A4B5300BDA228;
+			productRefGroup = 653E2E001D5A4B5300BDA228 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				653E2DFE1D5A4B5300BDA228 /* SnapIV */,
+				653E2E121D5A4B5300BDA228 /* SnapIVTests */,
+				653E2E1D1D5A4B5300BDA228 /* SnapIVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		653E2DFD1D5A4B5300BDA228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65033E4D1D6AD771001509A7 /* PokemonGO.sqlite in Resources */,
+				653E2E0D1D5A4B5300BDA228 /* LaunchScreen.storyboard in Resources */,
+				658113F51D5A95CA00B4983B /* tessdata in Resources */,
+				658160981D63011900611A2F /* Localizable.strings in Resources */,
+				653E2E0A1D5A4B5300BDA228 /* Assets.xcassets in Resources */,
+				653E2E081D5A4B5300BDA228 /* Main.storyboard in Resources */,
+				65EE2BF91D5C3261006DE332 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653E2E111D5A4B5300BDA228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653E2E1C1D5A4B5300BDA228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B1429E7F69AEB9A56374030 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		58BFFD1D073EDA5CF4346996 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapIV/Pods-SnapIV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74B7BF93267F6C9170EFAC10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapIVUITests/Pods-SnapIVUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D54EFAFF6C79480F0D0ACF15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DBA61DE14F3FABABFF5829BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapIVTests/Pods-SnapIVTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F14A229675F3088991F9BEF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4B5D4D405037424CF57989D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapIVTests/Pods-SnapIVTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F61250D0B0DA88AD2BB4B356 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SnapIV/Pods-SnapIV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		653E2DFB1D5A4B5300BDA228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653E2E471D5A5F1B00BDA228 /* FMDatabase.h in Sources */,
+				65E873B31D5CB3C200829E31 /* SpinnerView.swift in Sources */,
+				653E2E481D5A5F1B00BDA228 /* FMResultSet.h in Sources */,
+				653E2E491D5A5F1B00BDA228 /* FMDatabaseAdditions.h in Sources */,
+				653E2E4A1D5A5F1B00BDA228 /* FMDB.h in Sources */,
+				653E2E381D5A572E00BDA228 /* FMDatabase.m in Sources */,
+				653E2E421D5A5B2A00BDA228 /* ModelManager.swift in Sources */,
+				65033E3D1D659883001509A7 /* DetectDevice.swift in Sources */,
+				65033E2F1D6397EE001509A7 /* Data.swift in Sources */,
+				653E2E3D1D5A596A00BDA228 /* Util.swift in Sources */,
+				658160A21D63018A00611A2F /* StringExtension.swift in Sources */,
+				653E2E391D5A572E00BDA228 /* FMResultSet.m in Sources */,
+				652B3D1B1D61E02000EC02B3 /* AdRemoveViewController.swift in Sources */,
+				65033E4B1D6759D4001509A7 /* pokeLevelViewController.swift in Sources */,
+				653E2E3A1D5A572E00BDA228 /* FMDatabaseAdditions.m in Sources */,
+				653E2E051D5A4B5300BDA228 /* ViewController.swift in Sources */,
+				65C743D21D5E8F9000A37072 /* PokeIVProducts.swift in Sources */,
+				653E2E031D5A4B5300BDA228 /* AppDelegate.swift in Sources */,
+				65C743D41D5E906600A37072 /* IAPHelper.swift in Sources */,
+				653E2E401D5A5A6900BDA228 /* BaseStat.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653E2E0F1D5A4B5300BDA228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653E2E181D5A4B5300BDA228 /* PokeIVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653E2E1A1D5A4B5300BDA228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				653E2E231D5A4B5300BDA228 /* PokeIVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		653E2E151D5A4B5300BDA228 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 653E2DFE1D5A4B5300BDA228 /* SnapIV */;
+			targetProxy = 653E2E141D5A4B5300BDA228 /* PBXContainerItemProxy */;
+		};
+		653E2E201D5A4B5300BDA228 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 653E2DFE1D5A4B5300BDA228 /* SnapIV */;
+			targetProxy = 653E2E1F1D5A4B5300BDA228 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		653E2E061D5A4B5300BDA228 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				653E2E071D5A4B5300BDA228 /* Base */,
+				658160941D6300C200611A2F /* zh-Hant */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		653E2E0B1D5A4B5300BDA228 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				653E2E0C1D5A4B5300BDA228 /* Base */,
+				658160951D6300C200611A2F /* zh-Hant */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6581609A1D63011900611A2F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				658160991D63011900611A2F /* en */,
+				658160A01D63014900611A2F /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		653E2E251D5A4B5300BDA228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		653E2E261D5A4B5300BDA228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		653E2E281D5A4B5300BDA228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF8F576F2D01A010B9D04CA /* Pods-SnapIV.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(PROJECT_DIR)/PokeIV/**",
+					"$(PROJECT_DIR)",
+					"~/Documents/FacebookSDK/**",
+				);
+				INFOPLIST_FILE = PokeIV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayPalMobile",
+					"$(PROJECT_DIR)/CardIO",
+				);
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielcoding.snapIV1;
+				PRODUCT_NAME = SnapIV;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PokeIV-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		653E2E291D5A4B5300BDA228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AAE4F83B67CA7A66ED0B0CD /* Pods-SnapIV.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(PROJECT_DIR)/PokeIV/**",
+					"$(PROJECT_DIR)",
+					"~/Documents/FacebookSDK/**",
+				);
+				INFOPLIST_FILE = PokeIV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayPalMobile",
+					"$(PROJECT_DIR)/CardIO",
+				);
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danielcoding.snapIV1;
+				PRODUCT_NAME = SnapIV;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PokeIV-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		653E2E2B1D5A4B5300BDA228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 979752491633BD9DFB280D0C /* Pods-SnapIVTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PokeIVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danieltseng.PokeIVTests;
+				PRODUCT_NAME = SnapIV;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapIV.app/SnapIV";
+			};
+			name = Debug;
+		};
+		653E2E2C1D5A4B5300BDA228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 272DB20AD873BB28F044D3AB /* Pods-SnapIVTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PokeIVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danieltseng.PokeIVTests;
+				PRODUCT_NAME = SnapIV;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapIV.app/SnapIV";
+			};
+			name = Release;
+		};
+		653E2E2E1D5A4B5300BDA228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15E10E7C7AC2B59F5581FF80 /* Pods-SnapIVUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PokeIVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danieltseng.PokeIVUITests;
+				PRODUCT_NAME = SnapIV;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PokeIV;
+			};
+			name = Debug;
+		};
+		653E2E2F1D5A4B5300BDA228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3240D0349D445772A09092E /* Pods-SnapIVUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PokeIVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danieltseng.PokeIVUITests;
+				PRODUCT_NAME = SnapIV;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PokeIV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		653E2DFA1D5A4B5300BDA228 /* Build configuration list for PBXProject "SnapIV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653E2E251D5A4B5300BDA228 /* Debug */,
+				653E2E261D5A4B5300BDA228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653E2E271D5A4B5300BDA228 /* Build configuration list for PBXNativeTarget "SnapIV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653E2E281D5A4B5300BDA228 /* Debug */,
+				653E2E291D5A4B5300BDA228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653E2E2A1D5A4B5300BDA228 /* Build configuration list for PBXNativeTarget "SnapIVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653E2E2B1D5A4B5300BDA228 /* Debug */,
+				653E2E2C1D5A4B5300BDA228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653E2E2D1D5A4B5300BDA228 /* Build configuration list for PBXNativeTarget "SnapIVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				653E2E2E1D5A4B5300BDA228 /* Debug */,
+				653E2E2F1D5A4B5300BDA228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 653E2DF71D5A4B5300BDA228 /* Project object */;
+}

@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "IV:"; ObjectID = "1dM-sV-OjL"; */
+"1dM-sV-OjL.text" = "IV:";
+
+/* Class = "UIButton"; normalTitle = "Quick Upload"; ObjectID = "3Wb-bu-lXE"; */
+"3Wb-bu-lXE.normalTitle" = "Quick Upload";
+
+/* Class = "UIButton"; normalTitle = "購買移除廣告      $30"; ObjectID = "6dr-ac-zGG"; */
+"6dr-ac-zGG.normalTitle" = "購買移除廣告      $30";
+
+/* Class = "UILabel"; text = "CP"; ObjectID = "JYd-yf-uFo"; */
+"JYd-yf-uFo.text" = "CP";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "NNX-UT-aG0"; */
+"NNX-UT-aG0.normalTitle" = "Submit";
+
+/* Class = "UIButton"; normalTitle = "回復移除廣告"; ObjectID = "d1g-Et-cW6"; */
+"d1g-Et-cW6.normalTitle" = "回復移除廣告";
+
+/* Class = "UILabel"; text = "Stardust"; ObjectID = "dLR-uO-gnw"; */
+"dLR-uO-gnw.text" = "Stardust";
+
+/* Class = "UINavigationItem"; title = "移除廣告"; ObjectID = "pQV-r6-iG6"; */
+"pQV-r6-iG6.title" = "移除廣告";
+
+/* Class = "UIButton"; normalTitle = "Upload"; ObjectID = "v6i-jS-H9y"; */
+"v6i-jS-H9y.normalTitle" = "Upload";
+
+/* Class = "UILabel"; text = "Pokemon"; ObjectID = "yes-Wc-FxZ"; */
+"yes-Wc-FxZ.text" = "Pokemon";
+
+/* Class = "UILabel"; text = "HP"; ObjectID = "zHe-Op-BUM"; */
+"zHe-Op-BUM.text" = "HP";

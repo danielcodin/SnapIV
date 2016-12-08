@@ -1,0 +1,36 @@
+/* 
+  Localizable.strings
+  SnapIV
+
+  Created by Daniel Tseng on 8/16/16.
+  Copyright © 2016 Daniel Tseng. All rights reserved.
+*/
+
+"submit_button" = "計算";
+"upload_button" = "上傳";
+"quickUpload_button" = "快速上傳";
+"narrowDown_button" = "縮小範圍";
+"tryAgain_button" = "再試一次";
+
+"adRemove_title" = "設定";
+"adRemove_button" = "購買移除廣告 NT$ 30";
+"adRestore_button" = "回復移除廣告";
+
+"mail_title" = "問題回報或建議";
+"mail_body" = "ios版本: \niPhone版本:";
+
+"iv_MaxLabel" = "平均IV: ";
+"iv_noResult_1" = "沒有結果";
+"iv_noResult_2" = "請確認輸入是否正確";
+
+"ask_autoDeletePhoto_title" = "是否刪除上傳的截圖？";
+"ask_autoDeletePhoto_body" = "之後可以在設定中更改";
+"autoDeletePhoto_switchLabel" = "詢問是否刪除照片";
+
+"iv_description" = "";
+
+"trainerLevel_title" = "訓練師等級";
+"arcLevel_title" = "圓弧等級";
+"next_button" = "計算";
+"cancel_button" = "取消";
+"reset_button" = "重置";
